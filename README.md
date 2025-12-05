@@ -23,18 +23,18 @@ You can run the script directly using curl or wget.
 ### Option 1: Curl (Recommended)
 
 ```bash
-curl -s [https://raw.githubusercontent.com/TomatoSrc/hysteria2-sh/main/install.sh](https://raw.githubusercontent.com/TomatoSrc/hysteria2-sh/main/install.sh) | sh
+curl -s https://raw.githubusercontent.com/TomatoSrc/hysteria2-sh/main/install.sh | sh
 ```
 
 ### Option 2: Wget (For minimal Alpine installs)
 
 ```bash
-wget -O install.sh [https://raw.githubusercontent.com/TomatoSrc/hysteria2-sh/main/install.sh](https://raw.githubusercontent.com/TomatoSrc/hysteria2-sh/main/install.sh) && chmod +x install.sh && sh install.sh
+wget -O install.sh https://raw.githubusercontent.com/TomatoSrc/hysteria2-sh/main/install.sh && chmod +x install.sh && sh install.sh
 ```
 
 > Note: If you are having trouble connecting to GitHub, you can use the jsDelivr CDN:
 > ```bash
-> curl -s [https://cdn.jsdelivr.net/gh/TomatoSrc/hysteria2-sh@main/install.sh](https://cdn.jsdelivr.net/gh/TomatoSrc/hysteria2-sh@main/install.sh) | sh
+> curl -s https://cdn.jsdelivr.net/gh/TomatoSrc/hysteria2-sh@main/install.sh | sh
 > ```
 
 ## Usage
