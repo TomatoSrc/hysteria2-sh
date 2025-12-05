@@ -2,6 +2,7 @@
 # Hysteria 2 Installer for Alpine/Debian/CentOS
 # Compatible with OpenRC and Systemd
 
+
 set +e
 
 # --- Helpers ---
